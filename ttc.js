@@ -1,4 +1,4 @@
-function text2Color(text) {
+function getColor(text) {
 n = text.charCodeAt(0)+text.charCodeAt(text.length - 1);
 n = n * (360/172)
 a = n.toString()[0];
